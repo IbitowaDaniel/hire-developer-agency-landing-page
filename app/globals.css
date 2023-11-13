@@ -1,27 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+* {
+  scroll-behavior: smooth;
+  font-family: 'DM Sans', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.active {
+  color: #793677;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+/* Tailwind Styles  */
+
+.boxWidth {
+  @apply w-full mx-auto md:max-w-3xl lg:max-w-5xl xl:max-w-[1200px];
+}
+
+.paddingX {
+  @apply px-5 xs:px-8;
+}
+
+.paddingY {
+  @apply pt-20;
+}
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+
+.flexStart {
+  @apply flex justify-center items-start;
+}
+
+.textHeading {
+  @apply text-primary text-[15px] sm:text-base font-medium mb-3;
+}
+
+.textHeadingSecondary {
+  @apply font-semibold text-black text-2xl sm:text-3xl mx-auto xs:max-w-sm sm:max-w-[420px] md:max-w-full mb-3;
+}
+
+.textHeadingP {
+  @apply text-base lg:text-[17px] text-text_secondary leading-8;
 }

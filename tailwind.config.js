@@ -22,9 +22,6 @@ module.exports = {
         muted: '#7B8188', // muted color
         accent: '#609', // a contrast color for emphasizing UI
       },
-      fontFamily: {
-        'DM': ['"DM Sans"', "sans-serif"],
-      },
       keyframes: {
         playPulse: {
           '0%': { transform: 'scale(1)', opacity: '0.5' },

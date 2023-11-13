@@ -21,7 +21,7 @@ const Features = () => (
                 <Image src={c.imgSrc}
                   alt={c.altText}
                   className='w-20 lg:w-24 xl:w-28' />
-                <h3 className='font-bold text-black text-lg mt-4'>{c.title}</h3>
+                <h3 className='font-bold text-black text-base mt-4'>{c.title}</h3>
                 <p className='leading-8 text-heading_secondary mt-2 xs:px-12 sm:px-0 md:max-w-[280px] mx-auto'>{c.text}</p>
               </div>
             </div>

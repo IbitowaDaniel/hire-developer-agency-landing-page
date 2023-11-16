@@ -7,7 +7,7 @@ import Link from "next/link";
 const Footer = () => (
   <footer className="boxWidth paddingX paddingY pb-10">
     <div className="flex items-center justify-center h-4 pb-4 xs:pb-8">
-      <a href="https://danielibitowa.vercel.app" target="_blank">
+      <a href="https://daniel-ibitowa.vercel.app" target="_blank">
         <Image src={LogoSvg} className="w-28 xs:w-48" alt="logo" />
       </a>
     </div>
@@ -21,7 +21,7 @@ const Footer = () => (
 
     <div className="text-center text-base text-text mt-4">
       <p className="opacity-60"> &copy; {new Date().getFullYear()} All right reserved - Developed by</p>
-      <span className="block text-lg hover:text-primary mt-1"><a href="https://danielibitowa.vercel.app" target="_blank">Daniel Ibitowa</a></span></div>
+      <span className="block text-lg hover:text-primary mt-1"><a href="https://daniel-ibitowa.vercel.app" target="_blank">Daniel Ibitowa</a></span></div>
 
   </footer>
 );

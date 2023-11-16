@@ -96,7 +96,7 @@ const NavbarComponent = ({ headerId, headerStyles, }) => {
             <div className="ml-0 flex lg:ml-0">
               <Link to="#">
                 <span className="sr-only">Logo</span>
-                <a href="https://danielibitowa.vercel.app" target="_blank">
+                <a href="https://daniel-ibitowa.vercel.app" target="_blank">
                   <Image
                     className="w-28 xs:w-36 md:w-40 xl:w-48"
                     src={LogoSvg}

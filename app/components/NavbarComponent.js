@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 import Image from 'next/image';
 
 
- const NavbarComponent = ({ headerId, headerStyles, }) => {
+const NavbarComponent = ({ headerId, headerStyles, }) => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -96,11 +96,13 @@ import Image from 'next/image';
             <div className="ml-0 flex lg:ml-0">
               <Link to="#">
                 <span className="sr-only">Logo</span>
-                <Image
-                  className="w-28 xs:w-36 md:w-40 xl:w-48"
-                  src={LogoSvg}
-                  alt="Page Logo"
-                />
+                <a href="https://danielibitowa.vercel.app" target="_blank">
+                  <Image
+                    className="w-28 xs:w-36 md:w-40 xl:w-48"
+                    src={LogoSvg}
+                    alt="Page Logo"
+                  />
+                </a>
               </Link>
             </div>
 

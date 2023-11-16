@@ -94,7 +94,6 @@ const NavbarComponent = ({ headerId, headerStyles, }) => {
           <div className="flex h-16 py-9 items-center">
             {/* Logo */}
             <div className="ml-0 flex lg:ml-0">
-              <Link to="#">
                 <span className="sr-only">Logo</span>
                 <a href="https://daniel-ibitowa.vercel.app" target="_blank">
                   <Image
@@ -103,7 +102,6 @@ const NavbarComponent = ({ headerId, headerStyles, }) => {
                     alt="Page Logo"
                   />
                 </a>
-              </Link>
             </div>
 
             <ul className="hidden list-none lg:flex lg:flex-1 lg:gap-x-12 lg:justify-center">

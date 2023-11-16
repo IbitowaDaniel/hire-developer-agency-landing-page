@@ -20,8 +20,8 @@ const Footer = () => (
     </ul>
 
     <div className="text-center text-base text-text mt-4">
-      <p className="opacity-60"> &copy; {new Date().getFullYear()} All right reserved - Developed by</p>
-      <span className="block text-lg hover:text-primary mt-1"><a href="https://daniel-ibitowa.vercel.app" target="_blank">Daniel Ibitowa</a></span></div>
+      <p className="opacity-60"> &copy; {new Date().getFullYear()} All right reserved - Developed by <span className="block text-lg hover:text-primary mt-1"><a href="https://daniel-ibitowa.vercel.app" target="_blank"> Daniel Ibitowa</a></span></p>
+      </div>
 
   </footer>
 );

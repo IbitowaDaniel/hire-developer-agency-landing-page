@@ -19,7 +19,7 @@ const Footer = () => (
 
     <div className="text-center text-base text-text mt-4">
       <p className="opacity-60"> &copy; {new Date().getFullYear()} All right reserved - Developed by</p>
-      <span className="block text-lg hover:text-primary mt-1">Daniel Ibitowa</span></div>
+      <span className="block text-lg hover:text-primary mt-1"><a href="https://danielibitowa.vercel.app" target="_blank">Daniel Ibitowa</a></span></div>
 
   </footer>
 );
